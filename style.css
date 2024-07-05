@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*For Mobile & Desktop*/
+/*Removed margin for image to expand to edge*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+/*image is outside main tag*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Created margin for mobile*/
+div.margin{
+    margin: 1.5em;
+}
+
+h1{
+    font-family: "Young Serif";
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+h2{
+    font-family: "Young Serif";
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+h3{
+    font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
+}
+
+p{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+ul, ol, li, tr{
+    font-family: "Outfit";
+    color: hsl(30, 10%, 34%);
+    padding-left: 1em;
+}
+
+ul.preplist > li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+ol > li::marker{
+    font-weight: 700;
+}
+
+ul.preplist{
+    color: hsl(30, 10%, 34%);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    padding-left: 2em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-indent: 1em;
+}
+
+/*Removes border bottom of webpage*/
+tr.none{
+    border-bottom: none;
+}
+
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+/*Desktop CSS rules when wider than 375px*/
+@media (min-width: 376px) {
+    body{
+        display: flex;
+        flex-direction: column;    
+        background-color: hsl(30, 54%, 90%);
+        padding: 25%;
+    }
+
+    main{
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1em;    
+        padding: 2em;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 1em;
+    }
+    div.margin{
+        margin: 0px;
+    }
+}
+/*FrontEnd Mentor CSS attribution links*/
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
