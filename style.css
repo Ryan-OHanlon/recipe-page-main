@@ -8,10 +8,6 @@
     src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-* {
-    box-sizing: border-box;
-}
-
 /*For Mobile & Desktop*/
 /*Removed margin for image to expand to edge*/
 body{
