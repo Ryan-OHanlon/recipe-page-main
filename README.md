@@ -24,7 +24,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/recipe-page-using-flexbox-and-media-css-rule-vPirkXX_IP](https://www.frontendmentor.io/solutions/recipe-page-using-flexbox-and-media-css-rule-vPirkXX_IP)
 - Live Site URL: [https://ryan-ohanlon.github.io/recipe-page-main/](https://ryan-ohanlon.github.io/recipe-page-main/)
 
 ## My process
@@ -36,8 +36,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Flexbox
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 This challenge taught me a lot about the @media CSS rule for creating a responsive design for both desktop and mobile. Being able to have two sets of CSS rules based on the width of the device makes designing webpages a challenge as the mobile CSS rules can still affect the @media CSS rules.
 
